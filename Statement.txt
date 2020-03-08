@@ -1,0 +1,5 @@
+2019-11-06 Debit fashion 2000
+2019-11-06 Credit  25000
+2019-11-06 Credit Cash 25000
+2019-11-06 Debit party 5000
+2019-11-06 Debit tea 150

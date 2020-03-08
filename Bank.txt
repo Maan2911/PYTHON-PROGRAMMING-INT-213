@@ -1,0 +1,52 @@
+class Bank
+{
+Char Name;
+int Age;
+Static Initial Deposit;
+Scanner sc=new Scanner(System.in)
+void input()
+{
+    system.out.println("Enter the Name");
+    Name=sc.nextchar();
+    system.out.println("Enter the Age");
+    Age=sc.nextint();
+    system.out.println("Enter the Initial_Deposit");
+    Initial_Deposit=sc.nextint();
+    balance=Initial Deposit;
+}
+void show()
+{
+    System.out.println("Account Holder Name"+Name);
+    System.out.println("Account Holder Age"+Age);
+    System.out.println("Account balance"+Initial_Deposit);
+}
+void Deposit()
+{
+int x;
+System.out.println("Enter the Amount you want to Deposit");
+x=sc.nextint();
+balance+=x
+}
+void withdraw()
+{
+int y;
+System.out.println("Enter the Amount you want to Withdraw");
+if(y<balance)
+{
+System.out.println("Insufficent balance");
+}
+else
+{
+balance=balance-y;   
+}
+}
+void view()
+{
+System.out.println("Available Amount"+balance);    
+}
+public Static void main(String arg[])
+{
+Scanner sc=new Scanner(System.in)  
+}
+Case 1:
+obj1.outpout()
